@@ -99,7 +99,7 @@
 		display:inline-block;
 		position:absolute;
 		top:0;
-		text-transform:lowercase;
+		/*text-transform:lowercase;*/
 	}
 	#site-nav h1{
 		float:left;
@@ -120,16 +120,24 @@
 	}
 	section.hero-noimage #site-nav ul li{
 		color:rgba(0, 0, 0, 0.6);
+		font-size: large;
 	}
 	#site-nav ul li{
+		font-size: large;
 		margin:10px 5px;
 		padding:0.5em;
 		box-sizing:border-box;
 		display:inline-block;
-		color:rgba(255, 255, 255, 0.6);
+		color:#fff;
 	}
 	#site-nav ul li:hover{
 		color:#fff;
+		background: #273a34;
+		-webkit-transition: all 100ms ease-in-out;
+		-moz-transition: all 100ms ease-in-out;
+		-ms-transition: all 100ms ease-in-out;
+		-o-transition: all 100ms ease-in-out;
+		transition: all 100ms ease-in-out;
 	}
 	section.hero-noimage #site-nav ul li:hover{
 		color:#000;
