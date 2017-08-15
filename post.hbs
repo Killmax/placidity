@@ -14,7 +14,7 @@
           </div>
         {{/if}}
         <div class="name">
-          <h2>by <b>{{author}}</b>,</h2>
+          <h2>by <a href="{{@blog.url}}/about-me/"><b>{{author.name}}</b></a>,</h2>
           <p>on {{date format="MMMM DD, YYYY"}}</p>
         </div>
       </section>
@@ -32,7 +32,7 @@
       {{#next_post}}
         <article class="suggested">
           <header>
-            <h1>{{title}}</h1>
+            <a class="no-underline" href="{{url absolute="true"}}"><h1 class="title-article">{{title}}</h1></a>
           </header>
           <section class="excerpt">
             <p>{{excerpt words="30"}}</p>
@@ -45,7 +45,7 @@
       {{#prev_post}}
         <article class="suggested">
           <header>
-            <h1>{{title}}</h1>
+            <a class="no-underline" href="{{url absolute="true"}}"><h1 class="title-article">{{title}}</h1></a>
           </header>
           <section class="excerpt">
             <p>{{excerpt words="30"}}</p>
