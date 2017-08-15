@@ -133,11 +133,11 @@
 	#site-nav ul li:hover{
 		color:#fff;
 		background: #273a34;
-		-webkit-transition: all 100ms ease-in-out;
-		-moz-transition: all 100ms ease-in-out;
-		-ms-transition: all 100ms ease-in-out;
-		-o-transition: all 100ms ease-in-out;
-		transition: all 100ms ease-in-out;
+		-webkit-transition: all 200ms ease-in-out;
+		-moz-transition: all 200ms ease-in-out;
+		-ms-transition: all 200ms ease-in-out;
+		-o-transition: all 200ms ease-in-out;
+		transition: all 200ms ease-in-out;
 	}
 	section.hero-noimage #site-nav ul li:hover{
 		color:#000;
