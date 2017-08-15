@@ -217,7 +217,7 @@
 	}
 	#loop article footer .ghostb{
 		float:right;
-		margin-right:10px;
+		margin-right:20px;
 	}
 	@media all and (max-width: 1000px) {
 		#loop article section.image{
