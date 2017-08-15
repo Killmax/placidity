@@ -14,15 +14,15 @@
         </section>
         <section class="body">
           <header>
-            <a href="{{url absolute="true"}}"><h1>{{title}}</h1></a>
+            <a class="no-underline" href="{{url absolute="true"}}"><h1 class="title-article">{{title}}</h1></a>
             {{#if tags}}
-                <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}} - {{tags separator=" & "}}</p>
+                <p>by <a href="{{@blog.url}}/about-me/"><b>{{author.name}}</b></a>, on {{date format="MMMM DD, YYYY"}} - {{tags separator=" & "}}</p>
               {{else}}
-                <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}}</p>
+                <p>by <a href="{{@blog.url}}/about-me/"><b>{{author.name}}</b></a>, on {{date format="MMMM DD, YYYY"}}</p>
             {{/if}}
           </header>
           <section class="excerpt">
-            <p>{{excerpt words="40"}}</p>
+            <p>{{excerpt words="80"}}...</p>
           </section>
           <footer>
             <a href="{{url absolute="true"}}"><div class="ghostb">read</div></a>
@@ -32,15 +32,15 @@
     {{else}}
       <article>
         <header>
-          <h1>{{title}}</h1>
+          <a class="no-underline" href="{{url absolute="true"}}"><h1>{{title}}</h1></a>
           {{#if tags}}
-              <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}} - {{tags separator=" & "}}</p>
+              <p>by <a href="{{@blog.url}}/about-me/"><b>{{author.name}}</b></a>, on {{date format="MMMM DD, YYYY"}} - {{tags separator=" & "}}</p>
             {{else}}
-              <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}}</p>
+              <p>by <a href="{{@blog.url}}/about-me/"><b>{{author.name}}</b></a>, on {{date format="MMMM DD, YYYY"}}</p>
           {{/if}}
         </header>
         <section class="excerpt">
-          <p>{{excerpt words="60"}}</p>
+          <p>{{excerpt words="80"}}...</p>
         </section>
         <footer>
           <a href="{{url absolute="true"}}"><div class="ghostb">read</div></a>

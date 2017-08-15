@@ -515,3 +515,11 @@
 	#private form button{
 
 	}
+
+	.no-underline {
+		text-decoration: none;
+	}
+
+	.title-article {
+		margin-bottom: 10px;
+	}
