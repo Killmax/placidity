@@ -1,10 +1,10 @@
 {
-  "name": "placidity",
+  "name": "placidity - Killmax enhanced",
   "version": "1.0.0",
   "description": "An Image heavy ghost theme.",
   "author": {
-    "email": "your@email.here",
-    "name": "Daniel Tamkin"
+    "email": "maxime.bruguet@gmail.com",
+    "name": "Maxime Bruguet"
   },
   "config": {
       "posts_per_page": 10
